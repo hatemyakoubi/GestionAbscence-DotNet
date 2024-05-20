@@ -30,8 +30,8 @@ namespace gestionabscence.Models
         public string Role { get; set; } = "Student";
 
         // Navigation properties
-        public virtual ICollection<Student> Students { get; set; }
-        public virtual ICollection<Professor> Professors { get; set; }
-        public virtual ICollection<Admin> Admins { get; set; }
+        public virtual ICollection<Student>? Students { get; set; }
+        public virtual ICollection<Professor>? Professors { get; set; }
+        public virtual ICollection<Admin>? Admins { get; set; }
     }
 }

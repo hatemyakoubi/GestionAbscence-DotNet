@@ -250,3 +250,4 @@ F:\gestionabscence\gestionabscence\bin\Debug\net8.0\runtimes\win\lib\net7.0\Micr
 F:\gestionabscence\gestionabscence\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 F:\gestionabscence\gestionabscence\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 F:\gestionabscence\gestionabscence\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+F:\gestionabscence\gestionabscence\obj\Debug\net8.0\gestionabscence.sourcelink.json

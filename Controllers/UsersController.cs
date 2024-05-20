@@ -19,8 +19,13 @@ namespace gestionabscence.Controllers
         }
 
         // GET: Users
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string? idCard)
         {
+            if (!string.IsNullOrEmpty(idCard))
+            {
+                var users = _context.Users.Where(u => u.IdCard.Contains(idCard)).ToList();
+                return View(users);
+            }
             return View(await _context.Users.ToListAsync());
         }
 
